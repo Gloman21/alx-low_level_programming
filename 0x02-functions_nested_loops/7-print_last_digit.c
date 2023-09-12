@@ -1,17 +1,17 @@
 #include "main.h"
 /**
-*main - checks the code
-*Return: always 0
+*print_last_digit - prints the last digit
+*@i: function parameter
+*Return: k
 */
 
-int main(void)
+int print_last_digit(int i)
 {
-	int r;
+	int k;
 
-	print_last_digit(98);
-	print_last_digit(0);
-	r = print_last_digit(-1024);
-	_putchar('0' + r);
-	_putchar('\n');
-	return (0);
+	k = i % 10;
+	if (i < 0)
+		k = -k;
+	_putchar(k + '0');
+	return (k);
 }
