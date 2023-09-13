@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
-*main - main function
+*main - function to sum multiples of 3 or 5 in numbers below 1024
 *Return: always 0
 */
+
 int main(void)
 {
 	int sum = 0;
@@ -16,4 +17,5 @@ int main(void)
 	}
 
 	printf("%d\n", sum);
+	return (0);
 }
