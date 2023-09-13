@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int limit = 4000000
+	int limit = 4000000;
 	int num1 = 1;
 	int num2 = 2;
 	int next;
